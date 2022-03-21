@@ -1,0 +1,80 @@
+
+
+.div1 {
+    width: 33%;
+    height: auto;
+    color: black;
+    background-color: coral;
+    display: inline-block;
+    text-align: center;
+     
+
+
+}
+
+
+.div2 {
+    width: 33%;
+    height: auto;
+    color: black;
+    background-color: blueviolet;
+    text-align: center;
+ 
+    display: inline-block;
+}
+
+.div3 {
+    width: 33%;
+    height: auto;
+    color: black;
+    background-color: aqua;
+    text-align: center;
+   
+    display: inline-block;
+}
+
+@media screen and (max-width: 796px) {
+    
+
+    .div1 {
+        width: 50%;
+        height: auto;
+        float: left; 
+    
+    }
+    .div2 {
+        width: 50%;
+        height: auto;
+        float: right;
+    }
+
+    .div3 {
+        width: 50%;
+        height: auto;
+        margin-left: 25%;
+        
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .div1 {
+        width: 100%;
+        height: auto;
+        color: black;
+        
+    }
+    .div2 {
+        width: 100%;
+        height: auto;
+        
+        
+    }
+
+    .div3 {
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+        
+    }
+
+}
